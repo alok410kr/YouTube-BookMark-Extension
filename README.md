@@ -1,4 +1,4 @@
-# YouTube Bookmark Extension 
+# YouTube Bookmark Extension
 
 A beautiful and powerful Chrome extension that allows you to bookmark timestamps in YouTube videos and easily navigate back to them.
 
@@ -80,7 +80,7 @@ A bookmark button is seamlessly integrated into YouTube's video player controls.
 2. Click the delete button next to any bookmark
 3. The bookmark is removed instantly
 
-## 🛠️ Technical Details
+##  Technical Details
 
 ### Technologies Used
 
