@@ -77,13 +77,6 @@ const getTime = (t) => {
       return;
     }
 
-    console.log(
-      "Bookmark clicked at timestamp:",
-      currentTime,
-      "for video:",
-      currentVideo
-    );
-
     const newBookmark = {
       time: currentTime,
       desc: "Bookmark at " + getTime(currentTime),
