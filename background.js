@@ -1,5 +1,5 @@
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  // Only send message when URL changes and page is fully loaded
+
   if (
     changeInfo.status === "complete" &&
     tab.url &&

@@ -33,5 +33,19 @@
     "default_title": "My YT Bookmarks",
     "default_popup": "popup.html"
   },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      },
+      "description": "Open bookmarks popup"
+    },
+    "save-bookmark": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+B"
+      },
+      "description": "Save bookmark at current timestamp"
+    }
+  },
   "manifest_version": 3
 }

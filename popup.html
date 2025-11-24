@@ -8,8 +8,32 @@
 <body>
   <div class="container">
     <div>
-      <div class="title">Your bookmarks for this video!!</div>
+      <div class="title">Your Bookmarks 🔖</div>
+      
+      <!-- Search and Actions Bar -->
+      <div class="action-bar">
+        <input 
+          type="text" 
+          id="searchBox" 
+          class="search-box" 
+          placeholder="🔍 Search bookmarks..."
+        />
+        <div class="action-buttons">
+          <button id="exportBtn" class="action-btn" title="Export bookmarks">
+            📤 Export
+          </button>
+          <button id="importBtn" class="action-btn" title="Import bookmarks">
+            📥 Import
+          </button>
+        </div>
+      </div>
+      
       <div class="bookmarks" id="bookmarks"></div>
+      
+      <!-- Keyboard Shortcut Hint -->
+      <div class="hint">
+         Press <kbd>Ctrl+Shift+B</kbd> to bookmark current timestamp
+      </div>
     </div>
   </div>
   <script type="module" src="popup.js"></script>
